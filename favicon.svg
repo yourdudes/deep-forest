@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Deep Forest">
+  <defs>
+    <linearGradient id="fvLeaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f6b4f"/>
+      <stop offset="1" stop-color="#1c4031"/>
+    </linearGradient>
+    <linearGradient id="fvGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8c879"/>
+      <stop offset="1" stop-color="#c89b3c"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="44" height="44" rx="12" fill="url(#fvLeaf)"/>
+  <rect x="22.5" y="27" width="3" height="12" rx="1.5" fill="url(#fvGold)"/>
+  <path d="M24 7 L34 21 L14 21 Z" fill="#e8efe9"/>
+  <path d="M24 13 L37 29 L11 29 Z" fill="#cfe0d4"/>
+  <path d="M24 19 L40 36 L8 36 Z" fill="#aecbb6"/>
+  <circle cx="24" cy="6.5" r="2.6" fill="url(#fvGold)"/>
+</svg>

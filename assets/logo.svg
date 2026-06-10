@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 248 48" role="img" aria-label="Deep Forest">
+  <defs>
+    <linearGradient id="dfLeaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f6b4f"/>
+      <stop offset="1" stop-color="#1c4031"/>
+    </linearGradient>
+    <linearGradient id="dfGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8c879"/>
+      <stop offset="1" stop-color="#c89b3c"/>
+    </linearGradient>
+  </defs>
+  <!-- Monogram: stylized tree / forest inside a rounded badge -->
+  <g>
+    <rect x="2" y="4" width="40" height="40" rx="11" fill="url(#dfLeaf)"/>
+    <!-- trunk -->
+    <rect x="20.5" y="26" width="3" height="11" rx="1.5" fill="url(#dfGold)"/>
+    <!-- three stacked canopy layers -->
+    <path d="M22 8 L31 21 L13 21 Z" fill="#e8efe9"/>
+    <path d="M22 14 L33 28 L11 28 Z" fill="#cfe0d4"/>
+    <path d="M22 19 L35 34 L9 34 Z" fill="#aecbb6"/>
+    <!-- gold spark / star above canopy -->
+    <circle cx="22" cy="7.5" r="2.4" fill="url(#dfGold)"/>
+  </g>
+  <!-- Wordmark -->
+  <g fill="#14241d">
+    <text x="54" y="24" font-family="'Playfair Display', Georgia, serif" font-size="21" font-weight="700" letter-spacing="0.2">Deep</text>
+    <text x="54" y="42" font-family="'Inter', Arial, sans-serif" font-size="14.5" font-weight="600" letter-spacing="3.4" fill="#2f6b4f">FOREST</text>
+  </g>
+</svg>
